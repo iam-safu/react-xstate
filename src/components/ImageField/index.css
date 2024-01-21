@@ -1,0 +1,39 @@
+.image-field {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  width: 30%;
+  height: 115px;
+}
+.image-preview {
+  border-radius: 15px;
+  width: 48%;
+  height: auto;
+}
+.image-summary {
+  display: flex;
+  row-gap: 5px;
+  flex-direction: column;
+}
+
+.summary_title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.summary_timestamp {
+  font-size: 11px;
+  color: grey;
+  font-weight: 500;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
